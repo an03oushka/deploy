@@ -1,0 +1,86 @@
+/* Reset some default browser styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+/* Main container for your dashboard */
+.dashboard-container {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px auto; /* Center the container horizontally */
+    max-width: 60vw; /* Adjust this width as needed */
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+/* Vertical navigation bar */
+.vertical-navbar {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    min-height: 100vh;
+    margin-right: 20px;
+}
+
+.vertical-navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vertical-navbar li {
+    padding: 10px;
+    text-align: center;
+}
+
+.vertical-navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.dashboard-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+/* Additional styles for the dashboard content */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+    .dashboard-container {
+        width: 90vw;
+    }
+
+    .vertical-navbar {
+        display: none;
+    }
+}

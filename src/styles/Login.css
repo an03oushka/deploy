@@ -1,0 +1,18 @@
+
+/* Remove the floating image */
+.FloatingImage {
+    display: none;
+  }
+  
+  /* Adjust the form container width */
+  .card.custom-form-bg {
+    max-width: 800px; /* You can adjust the width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  /* Center the form content */
+  .card-body.custom-form-bg {
+    background-color: #dddddd;
+    padding: 20px; /* Add padding for spacing */
+  }
+  
